@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Android",
+    "children" : [ {
+      "name" : "rosy_android_tablet",
+      "children" : [ {
+        "name" : "01_Login_successfully_with_valid_data.story",
+        "children" : [ {
+          "name" : "Verify login successfully with data vaild. ### Browser: Android, language: English ###",
+          "uid" : "b345a939acb096dc",
+          "parentUid" : "56f15fc4464be24449ce80e481cec1c8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599449183964,
+            "stop" : 1599449204945,
+            "duration" : 20981
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "56f15fc4464be24449ce80e481cec1c8"
+      }, {
+        "name" : "02_Verify_HomePage_NavigationBar.story",
+        "children" : [ {
+          "name" : "Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###",
+          "uid" : "da18fd8b3f1be854",
+          "parentUid" : "3e101612538d4801e130a8abd9b414a5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599449210048,
+            "stop" : 1599449210074,
+            "duration" : 26
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3e101612538d4801e130a8abd9b414a5"
+      }, {
+        "name" : "03_Access_Vault_Screen.story",
+        "children" : [ {
+          "name" : "Successful access to the vault screen. ### Browser: Android, language: English ###",
+          "uid" : "67336fcf0cf8f40f",
+          "parentUid" : "dbcc695780e7f74275a38e1e29c371d5",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599449215084,
+            "stop" : 1599449215099,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dbcc695780e7f74275a38e1e29c371d5"
+      }, {
+        "name" : "04_Access_To_Itemviewer_Screen.story",
+        "children" : [ {
+          "name" : "Verify Access successfuly to itemviewer screen. ### Browser: Android, language: English ###",
+          "uid" : "636e6d1be606b0af",
+          "parentUid" : "bb18bcec80e224b5f6a457e823e8e9a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1599449220111,
+            "stop" : 1599449220125,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bb18bcec80e224b5f6a457e823e8e9a3"
+      } ],
+      "uid" : "1551ce0f46eee181e97f3663c9c457a4"
+    } ],
+    "uid" : "03e9a1d0e315599a260bc53340feb679"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,246 @@
+{
+  "uid" : "da18fd8b3f1be854",
+  "name" : "Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###",
+  "fullName" : "02_Verify_HomePage_NavigationBar.story: Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###",
+  "historyId" : "E3E941BCEC5EEF33B9A90A6601E840C0",
+  "time" : {
+    "start" : 1599449210048,
+    "stop" : 1599449210074,
+    "duration" : 26
+  },
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "[java.lang.NullPointerException \nin step \"Then page \"AndroidTabletHomePage\" is loaded\"]",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "",
+    "status" : "broken",
+    "statusMessage" : "[java.lang.NullPointerException \nin step \"Then page \"AndroidTabletHomePage\" is loaded\"]",
+    "steps" : [ {
+      "name" : "!-- Given application \"%{env('browser')}%\" is opened",
+      "time" : {
+        "start" : 1599449210048,
+        "stop" : 1599449210048,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "!-- When application is logged in with user \"rosydev03@gmail.com\" and \"54321\"",
+      "time" : {
+        "start" : 1599449210048,
+        "stop" : 1599449210048,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then page \"AndroidTabletHomePage\" is loaded",
+      "time" : {
+        "start" : 1599449210049,
+        "stop" : 1599449210070,
+        "duration" : 21
+      },
+      "status" : "broken",
+      "statusMessage" : "java.lang.NullPointerException",
+      "statusTrace" : "java.lang.NullPointerException\n\tat core.utils.timeout.TimeoutUtils.setTimeOut(TimeoutUtils.java:31)\n\tat core.utils.timeout.TimeoutUtils.setTimeOut(TimeoutUtils.java:38)\n\tat core.steps.common.PageSteps.PageSubSteps.stepPageIsLoaded_aroundBody2(PageSubSteps.java:43)\n\tat core.steps.common.PageSteps.PageSubSteps$AjcClosure3.run(PageSubSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.StepExtAspect.step(StepExtAspect.java:62)\n\tat core.steps.common.PageSteps.PageSubSteps.stepPageIsLoaded(PageSubSteps.java:36)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded_aroundBody4(PageSteps.java:27)\n\tat core.steps.common.PageSteps.PageSteps$AjcClosure5.run(PageSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.ConditionalStepAspect.step(ConditionalStepAspect.java:82)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded_aroundBody6(PageSteps.java:25)\n\tat core.steps.common.PageSteps.PageSteps$AjcClosure7.run(PageSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.SoftAssertAspect.step(SoftAssertAspect.java:19)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded(PageSteps.java:25)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)\n\tat org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)\n\tat org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)\n\tat org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)\n\tat org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)\n\tat org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+      "steps" : [ {
+        "name" : "page \"AndroidTabletHomePage\" is loaded",
+        "time" : {
+          "start" : 1599449210069,
+          "stop" : 1599449210069,
+          "duration" : 0
+        },
+        "status" : "broken",
+        "statusMessage" : "java.lang.NullPointerException",
+        "statusTrace" : "java.lang.NullPointerException\n\tat core.utils.timeout.TimeoutUtils.setTimeOut(TimeoutUtils.java:31)\n\tat core.utils.timeout.TimeoutUtils.setTimeOut(TimeoutUtils.java:38)\n\tat core.steps.common.PageSteps.PageSubSteps.stepPageIsLoaded_aroundBody2(PageSubSteps.java:43)\n\tat core.steps.common.PageSteps.PageSubSteps$AjcClosure3.run(PageSubSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.StepExtAspect.step(StepExtAspect.java:62)\n\tat core.steps.common.PageSteps.PageSubSteps.stepPageIsLoaded(PageSubSteps.java:36)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded_aroundBody4(PageSteps.java:27)\n\tat core.steps.common.PageSteps.PageSteps$AjcClosure5.run(PageSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.ConditionalStepAspect.step(ConditionalStepAspect.java:82)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded_aroundBody6(PageSteps.java:25)\n\tat core.steps.common.PageSteps.PageSteps$AjcClosure7.run(PageSteps.java:1)\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\n\tat core.aspects.SoftAssertAspect.step(SoftAssertAspect.java:19)\n\tat core.steps.common.PageSteps.PageSteps.thenPageIsLoaded(PageSteps.java:25)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)\n\tat org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)\n\tat org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)\n\tat org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)\n\tat org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)\n\tat org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)\n\tat org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)\n\tat org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "page",
+          "value" : "AndroidTabletHomePage"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "7c591ff81e55726",
+        "name" : "Stack trace",
+        "source" : "7c591ff81e55726.txt",
+        "type" : "text/plain",
+        "size" : 2978
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "(NOT PERFORMED) When mobile field \"Permission_Allow_Always_Button\" is clicked if appeared",
+      "time" : {
+        "start" : 1599449210072,
+        "stop" : 1599449210072,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step 2",
+      "time" : {
+        "start" : 1599449210072,
+        "stop" : 1599449210072,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "(NOT PERFORMED) When mobile field \"OpenLeftMenu_Button\" is clicked",
+      "time" : {
+        "start" : 1599449210072,
+        "stop" : 1599449210072,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "(NOT PERFORMED) Then mobile field \"LogOut_Button\" exists",
+      "time" : {
+        "start" : 1599449210073,
+        "stop" : 1599449210073,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "(NOT PERFORMED) When mobile field \"Hide_Button\" is clicked",
+      "time" : {
+        "start" : 1599449210073,
+        "stop" : 1599449210073,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "02_Verify_HomePage_NavigationBar.story"
+  }, {
+    "name" : "host",
+    "value" : "User01s-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4308@User01s-MacBook-Pro.local.pool-1-thread-1(17)"
+  }, {
+    "name" : "epic",
+    "value" : "Android"
+  }, {
+    "name" : "feature",
+    "value" : "rosy_android_tablet"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9aca7156f2edf2b",
+        "reportUrl" : "http://localhost:8080/job/RosyWebAutomationTesting/29/allure/#testresult/9aca7156f2edf2b",
+        "status" : "broken",
+        "statusDetails" : "[java.lang.NullPointerException \nin step \"Then page \"AndroidTabletHomePage\" is loaded\"]",
+        "time" : {
+          "start" : 1599447962684,
+          "stop" : 1599447962710,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "cc6fd16971c9f030",
+        "reportUrl" : "http://localhost:8080/job/RosyAndroidAutomationTesting/1/allure/#testresult/cc6fd16971c9f030",
+        "status" : "broken",
+        "statusDetails" : "[java.lang.NullPointerException \nin step \"Then page \"HomePageAndroidMobile\" is loaded\"]",
+        "time" : {
+          "start" : 1599127980957,
+          "stop" : 1599127980986,
+          "duration" : 29
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da18fd8b3f1be854.json",
+  "parameterValues" : [ ]
+}

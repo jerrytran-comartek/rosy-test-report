@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20330ms.\nBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'\nSystem info: host: 'User01s-MacBook-Pro.local', ip: '2402:800:61b1:9dbb:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'\nDriver info: driver.version: AndroidDriver\nremote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20330ms.\n    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)\n    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:392:37)\nBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'\nSystem info: host: 'User01s-MacBook-Pro.local', ip: '2402:800:61b1:9dbb:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_261'\nDriver info: driver.version: AndroidDriver \nin step \"Given application \"%{env('browser')}%\" is opened\"]",
+      "children" : [ {
+        "name" : "Verify login successfully with data vaild. ### Browser: Android, language: English ###",
+        "uid" : "b345a939acb096dc",
+        "parentUid" : "ff3b9952fb227024d521d0991b2bb3e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599449183964,
+          "stop" : 1599449204945,
+          "duration" : 20981
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff3b9952fb227024d521d0991b2bb3e3"
+    }, {
+      "name" : "[java.lang.NullPointerException \nin step \"Then page \"AndroidTabletHomePage\" is loaded\"]",
+      "children" : [ {
+        "name" : "Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###",
+        "uid" : "da18fd8b3f1be854",
+        "parentUid" : "9e8a88427e64e9f5d13662845c1f81eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599449210048,
+          "stop" : 1599449210074,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Successful access to the vault screen. ### Browser: Android, language: English ###",
+        "uid" : "67336fcf0cf8f40f",
+        "parentUid" : "9e8a88427e64e9f5d13662845c1f81eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599449215084,
+          "stop" : 1599449215099,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e8a88427e64e9f5d13662845c1f81eb"
+    }, {
+      "name" : "[java.lang.NullPointerException \nin step \"Then page \"AndroidVaultPage\" is loaded\"]",
+      "children" : [ {
+        "name" : "Verify Access successfuly to itemviewer screen. ### Browser: Android, language: English ###",
+        "uid" : "636e6d1be606b0af",
+        "parentUid" : "cac242671a65815c75de683e02960ef8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1599449220111,
+          "stop" : 1599449220125,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cac242671a65815c75de683e02960ef8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

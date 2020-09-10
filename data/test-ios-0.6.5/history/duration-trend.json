@@ -1,0 +1,41 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/RosyAndroidTabletAutomationTesting/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 36161
+  }
+}, {
+  "buildOrder" : 30,
+  "reportUrl" : "http://localhost:8080/job/RosyWebAutomationTesting/30/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "http://localhost:8080/job/RosyWebAutomationTesting/29/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 111689
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/RosyAndroidAutomationTesting/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 19117
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/RosyAndroidAutomationTesting/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 27318
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:8080/job/RosyAndroidAutomationTesting/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 81171
+  }
+} ]
