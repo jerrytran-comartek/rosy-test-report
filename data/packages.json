@@ -1,0 +1,53 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Verify login successfully with data vaild. ### Browser: Android, language: English ###",
+    "uid" : "b345a939acb096dc",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1599449183964,
+      "stop" : 1599449204945,
+      "duration" : 20981
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###",
+    "uid" : "da18fd8b3f1be854",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1599449210048,
+      "stop" : 1599449210074,
+      "duration" : 26
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Successful access to the vault screen. ### Browser: Android, language: English ###",
+    "uid" : "67336fcf0cf8f40f",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1599449215084,
+      "stop" : 1599449215099,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Access successfuly to itemviewer screen. ### Browser: Android, language: English ###",
+    "uid" : "636e6d1be606b0af",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "broken",
+    "time" : {
+      "start" : 1599449220111,
+      "stop" : 1599449220125,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"broken","03_Access_Vault_Screen.story: Successful access to the vault screen. ### Browser: Android, language: English ###","15",""
+"broken","04_Access_To_Itemviewer_Screen.story: Verify Access successfuly to itemviewer screen. ### Browser: Android, language: English ###","14",""
+"broken","01_Login_successfully_with_valid_data.story: Verify login successfully with data vaild. ### Browser: Android, language: English ###","20981",""
+"broken","02_Verify_HomePage_NavigationBar.story: Verify Hompage, navigationbar and leftmenu are enable after login. ### Browser: Android, language: English ###","26",""
