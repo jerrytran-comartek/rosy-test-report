@@ -1,0 +1,6 @@
+{
+    "name": "script",
+    "dependencies": {
+        "nodemailer": "^6.4.11"
+    }
+}
